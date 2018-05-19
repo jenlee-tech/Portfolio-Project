@@ -1,0 +1,48 @@
+#container {
+	width: 25%;
+	border: 1px solid;
+	border-color: #dcdcdc;
+  	padding: 10px;
+  	box-shadow: 4px 10px #dcdcdc;
+	}
+
+h1 {
+	font-weight: bold;
+	font-size: x-large;
+	padding: 2px;
+	}
+
+#card {
+	background: #ffffff;
+	border-style: solid;
+  	border-width: 2px;
+	border-color:#DCDCDC;
+	padding: 5px;
+	}
+
+#animal_pic {
+	width: 325px;
+	position: center;
+	padding-bottom: 10px;
+	}
+
+#interesting-fact {
+	 font-style: italic;
+	 font-family: Times, Times New Roman, Georgia, serif;
+	}
+
+span {
+	font-weight:bold;
+	}
+
+li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	}
+
+
+.final_description
+	{font-family: Times, Times New Roman, Georgia, serif;
+		width: 65%;
+	}
