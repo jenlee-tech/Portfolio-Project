@@ -6,7 +6,9 @@ body, html {
     justify-content: center;
   }
 
-  
+
+  /***styling for header***/
+
 .header {
     display: flex;
     flex-direction: row;
@@ -16,19 +18,19 @@ body, html {
 }
 
 
-.header_name {
+.header-name {
     margin-bottom: 0;
 }
 
 
-.header_title {
+.header-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     margin-bottom: 0;
 }
 
 
-.header_title_container {
+.header-title-container {
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -36,7 +38,7 @@ body, html {
 }
 
 
-.inner_header {
+.inner-header {
     margin-right: auto;
     margin-left: 5px;
 }
@@ -48,14 +50,15 @@ body, html {
     margin-top: 2%;
 }
 
+/***styling for main content***/
 
-.main_content {
+.main-content {
     display: block;
     padding-bottom: 2%;
 }
 
 
-.main_pic {
+.main-pic {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
@@ -64,7 +67,7 @@ body, html {
 }
 
 
-.main_content_paragraph {
+.main-content-paragraph {
     padding: 3%;
     align-content: center;
     vertical-align: bottom;
@@ -81,13 +84,15 @@ h2 {
 }
 
 
-.header_main_content {
+.header-main-content {
     text-align: left;
     padding-top: 2%;
 }
 
 
-.featured_work_header {
+/**styling for featured work**/
+
+.featured-work-header {
     box-shadow: 0 3px 5px rgba(24, 82, 43, 0.66);
     text-align: center;
     padding-top: 3%;
@@ -99,13 +104,13 @@ h3 {
 }
 
 
-.featured_work_container {
+.featured-work-container {
     display: flex;
     flex-direction: row;        
 }
 
 
-.featured_work {
+.featured-work {
     width: 33%;
     align-content: center;
     padding-top: 1%;
@@ -122,7 +127,7 @@ h3 {
 }
 
 
-.cami_cat {
+.cami-cat {
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -131,7 +136,7 @@ h3 {
 }
 
 
-.pixel_art {
+.pixel-art {
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -140,10 +145,8 @@ h3 {
 }
 
 
-
-
-/*css for garden.html*/
-.My_Plants {
+/*styling for garden.html*/
+.My-Plants {
     display: flex;
     flex-direction: row;
     padding-top: 3%;
@@ -151,7 +154,7 @@ h3 {
 }
 
 
-.coral_bell_container, .roses_container, .hydrangena_container {
+.coral-bell-container, .roses-container, .hydrangena-container {
     width: 33%;
     display: block;
     margin-left: auto;
@@ -159,7 +162,7 @@ h3 {
 }
 
 
-.coral_bell {
+.coral-bell {
     width: 80%;
 }
 
@@ -169,7 +172,7 @@ h3 {
 }
 
 
-.Header_Garden {
+.Header-Garden {
     padding-top: 3%;
     text-align: left;
     font-size: 20px;

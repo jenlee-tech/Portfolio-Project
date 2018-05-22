@@ -1,23 +1,25 @@
 /*responsive css*/
+
+/*responsie css for devices like Nexus 5**/
 @media screen and (max-width: 360px) {
-    .main_content_paragraph {
+    .main-content-paragraph {
         font-size: 14px;
         line-height: 1.2;
     }
 
 
-    .main_pic {
+    .main-pic {
         float: left; 
         margin-top: 3%;
     
 
     }
-    .header_title {
+    .header-title {
         font-size: 15px;
 
 
     }
-    .header_name {
+    .header-name {
         font-size: 20px;
     }
 
@@ -39,7 +41,7 @@
     }
 
     
-     .featured_work_container {
+     .featured-work-container {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -47,21 +49,19 @@
 }
 
 
-
+/**responsive css for devices likes the IPad**/
 @media screen and (max-width: 768px) {
-    .main_pic {
+    .main-pic {
         margin-top: 3%;
     }
 
 
-    .main_content_description {
+    .main-content-description {
         font-size: 14px;
-      
-
     }
 
     
-    .header_title {
+    .header-title {
         font-size: 15px;
     }    
 }
