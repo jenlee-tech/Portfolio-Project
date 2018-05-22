@@ -1,5 +1,4 @@
 body, html {
-    
     margin-left: 3%;
     margin-right: 3%;
     width: 95%;
@@ -7,66 +6,62 @@ body, html {
     justify-content: center;
   }
 
-
-/*.header_name, .header_title {
-  */  
+  
 .header {
     display: flex;
     flex-direction: row;
     box-shadow: 0 3px 5px rgba(24, 82, 43, 0.66);
     min-height: 56px;
     transition: min-height 0.3s;
-  
 }
+
+
 .header_name {
     margin-bottom: 0;
-    
-
 }
+
 
 .header_title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     margin-bottom: 0;
 }
+
+
 .header_title_container {
     display: flex;
     flex-direction: column;
     text-align: right;
     margin-right: 2%
-      
-
 }
+
 
 .inner_header {
     margin-right: auto;
     margin-left: 5px;
-     
 }
+
 
 .logo {
     margin-right: 1em;
     vertical-align: top;
-    margin-top: 12px;
-    }
+    margin-top: 2%;
+}
+
 
 .main_content {
     display: block;
-   /* flex-direction: row;*/
-    padding-top: 2%;
     padding-bottom: 2%;
 }
+
+
 .main_pic {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
     padding: 2%;
     float: left;
-    
-  /*  position: center;
-  */
 }
-
 
 
 .main_content_paragraph {
@@ -79,23 +74,34 @@ body, html {
     text-align: justify;
 }
 
+
 h2 {
-    box-shadow: 0 3px 5px rgba(24, 82, 43, 0.66);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    padding-top: 3%;
-    text-align: center;
-    
 }
+
+
+.header_main_content {
+    text-align: left;
+    padding-top: 2%;
+}
+
+
+.featured_work_header {
+    box-shadow: 0 3px 5px rgba(24, 82, 43, 0.66);
+    text-align: center;
+    padding-top: 3%;
+}
+
 
 h3 {
     align-content: center;
-    }
+}
+
 
 .featured_work_container {
-        display: flex;
-        flex-direction: row;
-        
+    display: flex;
+    flex-direction: row;        
 }
 
 
@@ -110,30 +116,64 @@ h3 {
 .rose {
     margin-left: auto;
     margin-right: auto;
-    position: center;
+    position: relative;
     width: 70%;
     height: 60%
 }
+
+
 .cami_cat {
     margin-left: auto;
     margin-right: auto;
-    position: center;
+    position: relative;
     width: 60%;
     height: 75%
-
 }
+
+
 .pixel_art {
     margin-left: auto;
     margin-right: auto;
-    position: center;
+    position: relative;
     width: 60%;
     height: 60%
-   
 }
+
+
+
 
 /*css for garden.html*/
 .My_Plants {
     display: flex;
     flex-direction: row;
-
+    padding-top: 3%;
+    width: 100%;
 }
+
+
+.coral_bell_container, .roses_container, .hydrangena_container {
+    width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.coral_bell {
+    width: 80%;
+}
+
+
+.hydrangena {
+    width: 100%;
+}
+
+
+.Header_Garden {
+    padding-top: 3%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+

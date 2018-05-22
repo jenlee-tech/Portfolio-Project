@@ -4,29 +4,41 @@
         font-size: 14px;
         line-height: 1.2;
     }
+
+
     .main_pic {
         float: left; 
         margin-top: 3%;
-        position: off;
+    
+
     }
     .header_title {
         font-size: 15px;
+
+
     }
     .header_name {
         font-size: 20px;
     }
+
+
     .logo {
         height: 50%;
         width: 50%
     }
+
+
     h2 {
         font-size: 15px;
         text-align: left;
     }
+
+
     h3 {
         font-size: 12px;
     }
 
+    
      .featured_work_container {
         width: 100%;
         display: flex;
@@ -38,14 +50,17 @@
 
 @media screen and (max-width: 768px) {
     .main_pic {
-       
         margin-top: 3%;
     }
+
+
     .main_content_description {
         font-size: 14px;
       
+
     }
 
+    
     .header_title {
         font-size: 15px;
     }    
